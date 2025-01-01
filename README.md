@@ -1,2 +1,86 @@
 # STL
-What's STLï¼Ÿ
+STLÌá¹©ÁË³£ÓÃµÄÄ£°åÀàºÍËã·¨  
+STLµÄºËĞÄ×é¼şÓĞ£ºÈİÆ÷£¨Containers£©¡¢Ëã·¨£¨Algorithms£©¡¢µü´úÆ÷£¨Iterators£©¡¢º¯Êı¶ÔÏó£¨Function Object£©¡¢ÊÊÅäÆ÷£¨Adapter£©  
+  
+STL  
+|_________ÈİÆ÷£¨Containers£©  
+|                |_____Ë³ĞòÈİÆ÷  
+|                |        |_____vector  
+|                |        |_____list  
+|                |        |_____deque  
+|                |        |_____array  
+|                |        |_____string  
+|                |  
+|                |_____¹ØÁªÈİÆ÷  
+|                |        |_____set  
+|                |        |_____map  
+|                |        |_____multiset  
+|                |        |_____multimap  
+|                |  
+|                |_____ÎŞĞò¹ØÁªÈİÆ÷  
+|                |          |_____unordered_set  
+|                |          |_____unordered_map  
+|                |          |_____unordered_multiset  
+|                |          |_____unordered_multimap  
+|                |  
+|                |_____ÊÊÅäÆ÷ÈİÆ÷  
+|                          |_____stack  
+|                          |_____queue  
+|                          |_____priority_queue  
+|  
+|  
+|_________Ëã·¨£¨Algorithms£©  
+|                |_____ÅÅĞò  
+|                |      |_____sort  
+|                |      |_____stable_search  
+|                |      |_____partial_sort  
+|                |  
+|                |_____²éÕÒ  
+|                |      |_____find  
+|                |      |_____binary_search  
+|                |      |_____lower_bound  
+|                |      |_____upper_bound  
+|                |  
+|                |_____ĞŞ¸Ä  
+|                |      |_____reverse  
+|                |      |_____rotate  
+|                |      |_____fill  
+|                |  
+|                |_____±éÀú  
+|                |      |_____for_each  
+|                |      |_____transform  
+|                |  
+|                |_____²Ù×÷  
+|                       |_____count  
+|                       |_____accumulate  
+|                       |_____remove_if  
+|  
+|__________µü´úÆ÷£¨Iterators£©  
+|                |_____ÆÕÍ¨µü´úÆ÷£ºÓÃÓÚ±éÀúÈİÆ÷  
+|                |_____·´Ïòµü´úÆ÷£ºrbegin(), rend()  
+|                |_____³£Á¿µü´úÆ÷£º²»ÄÜĞŞ¸ÄÈİÆ÷µÄÔªËØ  
+|  
+|__________º¯Êı¶ÔÏó£¨Function Object£©  
+|              |___º¯Êı¶ÔÏó£¨»ò³ÆÎª·Âº¯Êı£©ÊÇ¿ÉÒÔÏñº¯ÊıÒ»Ñùµ÷ÓÃµÄ¶ÔÏó¡£STLÖĞµÄÒ»Ğ©Ëã·¨£¬Èçsort£¬ÔÊĞíÓÃ»§´«Èëº¯Êı¶ÔÏóÀ´½øĞĞ×Ô¶¨ÒåÅÅĞò¹æÔò¡£  
+|  
+|__________ÊÊÅäÆ÷£¨Adapters£©  
+|                |_____ÈİÆ÷ÊÊÅäÆ÷  
+|                |          |_____stack  
+|                |          |_____queue  
+|                |          |_____priority_queue  
+|                |  
+|                |_____µü´úÆ÷ÊÊÅäÆ÷  
+|                |          |_____reverse_iterator  
+|                |          |_____ostream_iterator  
+|                |  
+|                |_____º¯Êı¶ÔÏóÊÊÅäÆ÷  
+|                           |_____not1  
+|                           |_____not2  
+|                           |_____bind1st  
+|                           |_____bind2nd  
+|  
+|__________ÖÇÄÜÖ¸Õë  
+              |_____unique_ptr  
+              |_____shared_ptr  
+              |_____weak_ptr  
+
