@@ -18,5 +18,8 @@
     <ClCompile Include="C++_STL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
