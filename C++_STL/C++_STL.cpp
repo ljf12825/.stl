@@ -27,7 +27,13 @@
 
 //容器
 //容器分类
-//顺序容器 vector list deque
+//顺序容器 vector deque list forward_list array string
+// vector动态数组，支持随机访问，适合频繁尾部操作
+// deque双端队列，支持头尾快速插入/删除
+// list双向链表，任意位置插入/删除效率高，但不支持随机访问
+// forward_list单向链表，内存开销小，但只能单向遍历
+// array固定大小数组，大小在编译时确定，支持随机访问
+// string特化的字符容器，本质上是vector<char>
 //关联容器 set map multiset mltimap
 //无序容器 unordered_set unordered_map
 //容器适配器 stack queue priority_queue 基于底层容器封装
@@ -44,6 +50,6 @@
 //插入迭代器：back_inserter, inserter
 //流迭代器：istream_iterator, ostream_iterator
 
-//STL，先会用，再深入
+//套用侯捷先生的话：STL的学习境界划分为三个阶段：会用、明理、能扩展
 
 
