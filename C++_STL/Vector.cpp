@@ -21,7 +21,7 @@ class _vector_
 	{
 		if (size == capacity)
 		{
-			reserve(capacity == 0 ? 1 : capacity * 2)//分配新空间
+			reserve(capacity == 0 ? 1 : capacity * 2);//分配新空间
 			//如果尚未分配空间，则初始化空间为1，如果分配过则扩容
 		}
 		data[size++] = value; //复制或移动值
