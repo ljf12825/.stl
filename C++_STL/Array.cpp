@@ -52,12 +52,12 @@ struct _array_;
 //定义时初始化，通过forfor单个元素赋值
 
 //动态数组
-int* arr_ptr = new int[5];
-int main()
-{
-	//delete arr_ptr;//error
-	delete[] arr_ptr;
-}
+//int* arr_ptr = new int[5];
+//int main()
+//{
+//	//delete arr_ptr;//error
+//	delete[] arr_ptr;
+//}
 
 //int main()
 //{
@@ -156,7 +156,7 @@ void match(const std::array<int, 5>& arr, int target)
 	std::cout << "Not found" << std::endl;
 }
 //优化2
-void match(const std::array<int, 5>& arr, int target)
+void match_2(const std::array<int, 5>& arr, int target)
 {
 	auto it = std::find(arr.begin(), arr.end(), target);//如果找到了，it指向该元素的位置；如果没找到，it指向.end()
 	if (it != arr.end())
@@ -209,7 +209,7 @@ template<std::size_t N>
 std::array<std::string, N> sortname(std::array<std::string, N> arr)
 {
 	std::sort(arr.begin(), arr.end(), [](const std::string& a, const std::string& b) {
-		return std::tolower(static_cast<unsigned char>(a[0])) < std::tolower(static_cast<unsigned char>(b[0]);
+		return std::tolower(static_cast<unsigned char>(a[0])) < std::tolower(static_cast<unsigned char>(b[0]));
 		});
 	//使用std::tolower并确保char是unsigned char，防止UB；
 	return arr;
