@@ -27,5 +27,8 @@
     <ClCompile Include="String.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Deque.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
