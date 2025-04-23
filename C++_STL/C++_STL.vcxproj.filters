@@ -30,5 +30,11 @@
     <ClCompile Include="Deque.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Forward_List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
