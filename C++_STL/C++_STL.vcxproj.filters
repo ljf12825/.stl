@@ -39,5 +39,11 @@
     <ClCompile Include="Stack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Priority_Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

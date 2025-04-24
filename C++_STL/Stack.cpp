@@ -1,5 +1,8 @@
 #include <iostream>
 #include <stack>
+#include <vector>
+#include <list>
+#include <map>
 //std::stack是C++标准库中的一个容器适配器，它提供了栈数据结构的结构，即LIFO
 
 std::stack<int> s;
@@ -55,3 +58,7 @@ public:
 };
 //你可以把std::stack看作是对底层容器的一种“行为限制”
 //这就是“容器适配器”概念：屏蔽底层容器的能力，只暴露我们需要的接口
+
+//可替换容器
+std::stack<int, std::vector<int>> sta;
+std::stack<int, std::list<int>> stac;
