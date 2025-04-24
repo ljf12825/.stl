@@ -37,6 +37,8 @@
 //关联容器 set map multiset mltimap
 //无序容器 unordered_set unordered_map
 //容器适配器 stack queue priority_queue 基于底层容器封装
+//底层容器：vector deque list map set
+//STL容器 = 用少量底层容器构建出无限种“行为组合”
 
 //算法
 //排序类：sort, stable_sort, partial_sort
@@ -51,5 +53,7 @@
 //流迭代器：istream_iterator, ostream_iterator
 
 //套用侯捷先生的话：STL的学习境界划分为三个阶段：会用、明理、能扩展
+
+//STL的一个哲学：组合大于继承，行为优于数据结构
 
 

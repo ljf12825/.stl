@@ -136,6 +136,7 @@
     <ClCompile Include="Deque.cpp" />
     <ClCompile Include="Forward_List.cpp" />
     <ClCompile Include="List.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
