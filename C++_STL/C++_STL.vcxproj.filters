@@ -45,5 +45,11 @@
     <ClCompile Include="Priority_Queue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

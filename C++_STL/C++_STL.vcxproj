@@ -136,8 +136,10 @@
     <ClCompile Include="Deque.cpp" />
     <ClCompile Include="Forward_List.cpp" />
     <ClCompile Include="List.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Priority_Queue.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Set.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="Vector.cpp" />
