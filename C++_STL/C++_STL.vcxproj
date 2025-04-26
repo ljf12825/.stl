@@ -138,6 +138,7 @@
     <ClCompile Include="List.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Multimap.cpp" />
+    <ClCompile Include="Multiset.cpp" />
     <ClCompile Include="Priority_Queue.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Set.cpp" />
