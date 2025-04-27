@@ -145,6 +145,8 @@
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="Unordered_Map.cpp" />
+    <ClCompile Include="Unordered_Multimap.cpp" />
+    <ClCompile Include="Unordered_Multiset.cpp" />
     <ClCompile Include="Unordered_Set.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>

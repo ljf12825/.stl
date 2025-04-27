@@ -63,5 +63,11 @@
     <ClCompile Include="Unordered_Set.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Unordered_Multimap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Unordered_Multiset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,5 +1,4 @@
-﻿  String.cpp
-E:\VS_WorkSpace\C++_STL\C++_STL\String.cpp(65,14): warning C4091: 'static ': ignored on left of 'string' when no variable is declared
+﻿  Unordered_Multiset.cpp
   C++_STL.vcxproj -> E:\VS_WorkSpace\C++_STL\x64\Debug\C++_STL.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
