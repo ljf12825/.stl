@@ -18,55 +18,79 @@
     <ClCompile Include="C++_STL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Vector.cpp">
+    <ClCompile Include="Containers\Vector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Array.cpp">
+    <ClCompile Include="Containers\Array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="String.cpp">
+    <ClCompile Include="Containers\String.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Deque.cpp">
+    <ClCompile Include="Containers\Deque.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
+    <ClCompile Include="Containers\List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Forward_List.cpp">
+    <ClCompile Include="Containers\Forward_List.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
+    <ClCompile Include="Containers\Stack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Queue.cpp">
+    <ClCompile Include="Containers\Queue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Priority_Queue.cpp">
+    <ClCompile Include="Containers\Priority_Queue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Map.cpp">
+    <ClCompile Include="Containers\Map.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Set.cpp">
+    <ClCompile Include="Containers\Set.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Multimap.cpp">
+    <ClCompile Include="Containers\Multimap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Multiset.cpp">
+    <ClCompile Include="Containers\Multiset.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Unordered_Map.cpp">
+    <ClCompile Include="Containers\Unordered_Map.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Unordered_Set.cpp">
+    <ClCompile Include="Containers\Unordered_Set.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Unordered_Multimap.cpp">
+    <ClCompile Include="Containers\Unordered_Multimap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Unordered_Multiset.cpp">
+    <ClCompile Include="Containers\Unordered_Multiset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Find&amp;Search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Modify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Statistics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Boolean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithms\Shuffle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

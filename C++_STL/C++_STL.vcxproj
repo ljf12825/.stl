@@ -131,24 +131,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="Algorithms\Boolean.cpp" />
+    <ClCompile Include="Algorithms\Find&amp;Search.cpp" />
+    <ClCompile Include="Algorithms\Modify.cpp" />
+    <ClCompile Include="Algorithms\Numbers.cpp" />
+    <ClCompile Include="Algorithms\Set.cpp" />
+    <ClCompile Include="Algorithms\Shuffle.cpp" />
+    <ClCompile Include="Algorithms\Sort.cpp" />
+    <ClCompile Include="Algorithms\Statistics.cpp" />
+    <ClCompile Include="Containers\Array.cpp" />
     <ClCompile Include="C++_STL.cpp" />
-    <ClCompile Include="Deque.cpp" />
-    <ClCompile Include="Forward_List.cpp" />
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="Map.cpp" />
-    <ClCompile Include="Multimap.cpp" />
-    <ClCompile Include="Multiset.cpp" />
-    <ClCompile Include="Priority_Queue.cpp" />
-    <ClCompile Include="Queue.cpp" />
-    <ClCompile Include="Set.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="Unordered_Map.cpp" />
-    <ClCompile Include="Unordered_Multimap.cpp" />
-    <ClCompile Include="Unordered_Multiset.cpp" />
-    <ClCompile Include="Unordered_Set.cpp" />
-    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Containers\Deque.cpp" />
+    <ClCompile Include="Containers\Forward_List.cpp" />
+    <ClCompile Include="Containers\List.cpp" />
+    <ClCompile Include="Containers\Map.cpp" />
+    <ClCompile Include="Containers\Multimap.cpp" />
+    <ClCompile Include="Containers\Multiset.cpp" />
+    <ClCompile Include="Containers\Priority_Queue.cpp" />
+    <ClCompile Include="Containers\Queue.cpp" />
+    <ClCompile Include="Containers\Set.cpp" />
+    <ClCompile Include="Containers\Stack.cpp" />
+    <ClCompile Include="Containers\String.cpp" />
+    <ClCompile Include="Containers\Unordered_Map.cpp" />
+    <ClCompile Include="Containers\Unordered_Multimap.cpp" />
+    <ClCompile Include="Containers\Unordered_Multiset.cpp" />
+    <ClCompile Include="Containers\Unordered_Set.cpp" />
+    <ClCompile Include="Containers\Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
