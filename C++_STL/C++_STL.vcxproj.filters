@@ -93,5 +93,8 @@
     <ClCompile Include="Algorithms\Shuffle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
