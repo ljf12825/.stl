@@ -1,6 +1,5 @@
 ﻿D:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1122,5): warning MSB8027: Two or more files with the name of Set.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Algorithms\Set.cpp, Containers\Set.cpp.
-  Sort.cpp
-x64\Debug\Set.obj : warning LNK4042: object specified more than once; extras ignored
+  Iterator.cpp
   C++_STL.vcxproj -> E:\VS_WorkSpace\C++_STL\x64\Debug\C++_STL.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

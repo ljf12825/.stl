@@ -75,18 +75,18 @@ bool next_permutation(BidirectionalIt first, BidirectionalIt last, Compare comp)
 //2.交换元素：找到一个比其后面元素大的最小元素并交换它们
 //3.调整顺序：将元素后面的部分重新排列为最小的升序排列
 
-int main()
-{
-	std::vector<int> vec = { 1, 2, 3, 4 };
-	do
-	{
-		for (auto it : vec)
-		{
-			std::cout << it << " ";
-		}
-
-		std::cout << "\n";
-	} while (std::next_permutation(vec.begin(), vec.end()));
-
-	return 0;
-}
+//int main()
+//{
+//	std::vector<int> vec = { 1, 2, 3, 4 };
+//	do
+//	{
+//		for (auto it : vec)
+//		{
+//			std::cout << it << " ";
+//		}
+//
+//		std::cout << "\n";
+//	} while (std::next_permutation(vec.begin(), vec.end()));
+//
+//	return 0;
+//}
