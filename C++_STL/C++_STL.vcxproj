@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Adaptor.cpp" />
     <ClCompile Include="Algorithms\Boolean.cpp" />
     <ClCompile Include="Algorithms\Find&amp;Search.cpp" />
     <ClCompile Include="Algorithms\Modify.cpp" />

@@ -17,8 +17,8 @@
 仿函数可以协助算法完成不同的策略变化
 从实现的角度来看，仿函数是一种重载了operator()的类或者类模板。可以帮助算法实现不同的策略。
 
-5.adaptors(配接器)
-配接器可以应用于容器、仿函数和迭代器
+5.adaptors(适配器)
+适配器可以应用于容器、仿函数和迭代器
 一种用来修饰容器或者仿函数或迭代器接口的东西。
 
 6.allocator(分配器)
@@ -56,6 +56,11 @@
 //算术类仿函数：plus, minus, multiplies, divides, modulus, negate
 //关系类仿函数：equal_to, not_equal_to, greater, less, greater_equal, less_equal
 //逻辑类仿函数：logical_and, logical_or, logical_not
+
+//适配器
+//容器适配器：stack, queue, priority_queue
+//迭代器适配器 reverse_iterator, insert_iterator, istream_iterator, ostream_iterator
+//函数适配器 std::bind1sl, std::not1, std::function, std::bind
 
 //套用侯捷先生的话：STL的学习境界划分为三个阶段：会用、明理、能扩展
 
