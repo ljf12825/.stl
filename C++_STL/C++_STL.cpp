@@ -52,6 +52,11 @@
 //插入迭代器：back_inserter, inserter
 //流迭代器：istream_iterator, ostream_iterator
 
+//仿函数
+//算术类仿函数：plus, minus, multiplies, divides, modulus, negate
+//关系类仿函数：equal_to, not_equal_to, greater, less, greater_equal, less_equal
+//逻辑类仿函数：logical_and, logical_or, logical_not
+
 //套用侯捷先生的话：STL的学习境界划分为三个阶段：会用、明理、能扩展
 
 //STL的一个哲学：组合大于继承，行为优于数据结构

@@ -157,6 +157,7 @@
     <ClCompile Include="Containers\Unordered_Multiset.cpp" />
     <ClCompile Include="Containers\Unordered_Set.cpp" />
     <ClCompile Include="Containers\Vector.cpp" />
+    <ClCompile Include="Functor.cpp" />
     <ClCompile Include="Iterator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
