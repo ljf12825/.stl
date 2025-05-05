@@ -1,1 +1,16 @@
+#忽略VS工程生成目录
 .vs/
+Debug/
+Release/
+x64/
+x86/
+
+#忽略编译输出
+*.obj
+*.exe
+*.dll
+*.sln
+*.pdb
+*.vcxproj
+*.filters
+*.user
