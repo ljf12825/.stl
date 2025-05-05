@@ -24,26 +24,26 @@ template<
 //2.仿函数必须是const函数（因为内部比较时使用const引用）；
 //3.仿函数应该是无状态的，或者状态对于排序行为是稳定的（如可拷贝的只读数据）（仿函数类内参数可以起作用，但是不能在容器副本内发生变化，否则UB）
 
-int main()
-{
-	//算术类仿函数
-	std::plus<int> plus;
-	std::minus<int> minus;
-	std::multiplies<int> multiplies;
-	std::divides<int> divides;
-	std::modulus<int> modulus;//取模 return _Left % _Right
-	std::negate<int> negate;//取反 return -_Left;
-
-	//关系类仿函数
-	std::equal_to<int> equal_to;
-	std::not_equal_to<int> not_equal_to;
-	std::greater<int> greater;
-	std::less<int> less;
-	std::greater_equal<int> greater_equal;
-	std::less_equal<int> less_equal;
-
-	//逻辑类仿函数
-	std::logical_and<int> logical_and;
-	std::logical_not<int> logical_not;
-	std::logical_or<int> logical_or;
-}
+//int main()
+//{
+//	//算术类仿函数
+//	std::plus<int> plus;
+//	std::minus<int> minus;
+//	std::multiplies<int> multiplies;
+//	std::divides<int> divides;
+//	std::modulus<int> modulus;//取模 return _Left % _Right
+//	std::negate<int> negate;//取反 return -_Left;
+//
+//	//关系类仿函数
+//	std::equal_to<int> equal_to;
+//	std::not_equal_to<int> not_equal_to;
+//	std::greater<int> greater;
+//	std::less<int> less;
+//	std::greater_equal<int> greater_equal;
+//	std::less_equal<int> less_equal;
+//
+//	//逻辑类仿函数
+//	std::logical_and<int> logical_and;
+//	std::logical_not<int> logical_not;
+//	std::logical_or<int> logical_or;
+//}

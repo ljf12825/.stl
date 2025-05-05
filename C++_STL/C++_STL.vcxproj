@@ -140,6 +140,7 @@
     <ClCompile Include="Algorithms\Shuffle.cpp" />
     <ClCompile Include="Algorithms\Sort.cpp" />
     <ClCompile Include="Algorithms\Statistics.cpp" />
+    <ClCompile Include="Allocator.cpp" />
     <ClCompile Include="Containers\Array.cpp" />
     <ClCompile Include="C++_STL.cpp" />
     <ClCompile Include="Containers\Deque.cpp" />

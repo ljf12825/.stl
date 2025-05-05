@@ -102,5 +102,8 @@
     <ClCompile Include="Adaptor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Allocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
